@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #39c03d;
+  color: white;
+  padding: 5px;
+  text-align: left;
+}
+
+/* Navigation */
+nav ul {
+  list-style-type: none;
+  text-align: right;
+  background-color: #0b0b0b;
+  margin: 0;
+  padding: 5px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Section */
+section {
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+/* Content Box */
+.content-box {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.content-box p {
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: justify;
+  color: #333;
+}
+
+/* Gambar di Content */
+.content-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px 0;
+  margin-bottom: 20px;
+}
+.content-box p:first-of-type {
+  text-indent: 30px;
+}
+
+/* Tabel */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  margin: 5px 0;
+  width: auto;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 4px;
+  background-color: #333;
+  color: white;
+}
+
+/* Responsif */
+@media screen and (max-width: 600px) {
+  nav ul li {
+    display: block;
+    margin-right: 0;
+  }
+}

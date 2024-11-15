@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+section {
+  padding: 50px;
+  text-align: center;
+}
+
+#hero {
+  background-color: #4a90e2;
+  color: #fff;
+  padding: 100px 20px;
+}
+
+.hero-foto {
+  width: 150px; /* Atur ukuran foto sesuai kebutuhan */
+  height: 150px;
+  border-radius: 50%; /* Membuat foto menjadi bulat */
+  margin-bottom: 20px; /* Spasi antara foto dan teks */
+}
+
+#projects .project-item {
+  background-color: #fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#contact a {
+  color: #4a90e2;
+  text-decoration: none;
+}
